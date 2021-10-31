@@ -1,8 +1,8 @@
 #! /usr/bin/env bash
 
-src="Builds/WebGL"
+src="docs"
 dst=pi@raspberrypi.local
-dir=/var/www/games.sslees.com
+dir=/var/www/games.sslees.com/ld49
 
 eval $(ssh-agent) &> /dev/null
 ssh-add -q
